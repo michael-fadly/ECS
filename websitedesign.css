@@ -1,3 +1,8 @@
 body{
- background-color: bisque
+ background-color: bisque;
+}
+
+p{
+    color:darkgreen;
+    font-family: cursive;
 }
