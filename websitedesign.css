@@ -6,3 +6,13 @@ p{
     color:darkgreen;
     font-family: cursive;
 }
+#puppy2{
+    width:250;
+}
+h1.title{
+    color:blue;
+}
+h2.title{
+    color:red;
+    font-family: fantasy
+}

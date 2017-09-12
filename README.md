@@ -1,3 +1,3 @@
 # Exploring Computer Science
 
-Currently Learning HTML
+Currently Learning HTML and CSS
