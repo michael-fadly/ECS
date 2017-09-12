@@ -6,48 +6,55 @@
 </head>
 
 <body>
-    <a href="index.html">home</a>
-    <form action="http://example.com/susbscribe.php" method="get">
-        <p>This is where controls will appear.</p>
-        <fieldset>
-            <label>Username: <input type="text" name="username" size="15" maxlength="20"></label>
-            <label>Password: <input type="password" name="password" size="15" maxlength="20"></label>
-        </fieldset>
-        <br/>
-        <p>what do you like about doggos?</p>
-        <textarea name="comments" cols="72">winston</textarea>
-        <br/>
-        <p>favorite pupper?</p>
-        <input type="radio" name="fav_pup" value="winston" checked="checked" />Winston
-        <input type="radio" name="fav_pup" value="scruffy" />Scruffy
-        <input type="radio" name="fav_pup" value="scruffy" />Jon
-        <br/>
-        <input type="checkbox" name="fav_pup" value="winston" checked="checked" />Winston
-        <input type="checkbox" name="fav_pup" value="scruffy" />Scruffy
-        <input type="checkbox" name="fav_pup" value="scruffy" />Jon
-        <br/>
-        <p>What's your favorite flavor of ice cream</p>
-        <select name="flavor">
+    <div>
+        <a href="index.html">home</a>
+        <div>
+            <form action="http://example.com/susbscribe.php" method="get">
+                <p>This is where controls will appear.</p>
+                <fieldset>
+                    <label>Username: <input type="text" name="username" size="15" maxlength="20"></label>
+                    <label>Password: <input type="password" name="password" size="15" maxlength="20"></label>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <form>
+                <p>what do you like about doggos?</p>
+                <textarea name="comments" cols="72">winston</textarea>
+                <br/>
+                <p>favorite pupper?</p>
+                <input type="radio" name="fav_pup" value="winston" checked="checked" />Winston
+                <input type="radio" name="fav_pup" value="scruffy" />Scruffy
+                <input type="radio" name="fav_pup" value="scruffy" />Jon
+                <br/>
+                <input type="checkbox" name="fav_pup" value="winston" checked="checked" />Winston
+                <input type="checkbox" name="fav_pup" value="scruffy" />Scruffy
+                <input type="checkbox" name="fav_pup" value="scruffy" />Jon
+                <br/>
+                <p>What's your favorite flavor of ice cream</p>
+                <select name="flavor">
         <option value="chocolate">chocolate</option>
         <option value="vanilla">vanilla</option>
     </select>
-        <br/>
-        <select name="instruments" size="3" multiple="multiple">
+                <br/>
+                <select name="instruments" size="3" multiple="multiple">
         <option value="guitar">guitar</option>
         <option value="piano">piano</option>
         <option value="small_guitar">small guitar</option>
     </select>
-        <br/>
-        <p>Throw files at me</p>
-        <input type="file" name="file">
-        <br/>
-        <input type="image" value="Upload" src="images/submit.jpg" width="100">
-        <br/>
-        <input type="date" name="depart">
-        <br/>
-        <p>gib email</p>
-        <input type="email">
-    </form>
+                <br/>
+                <p>Throw files at me</p>
+                <input type="file" name="file">
+                <br/>
+                <input type="image" value="Upload" src="images/submit.jpg" width="100">
+                <br/>
+                <input type="date" name="depart">
+                <br/>
+                <p>gib email</p>
+                <input type="email">
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
