@@ -17,3 +17,10 @@ p{
 div.header{
     background-color: red;
 }
+div.pupstuf{
+    background-color: aqua;
+    float: left;
+}
+div.vidya{
+    float: right;
+}
