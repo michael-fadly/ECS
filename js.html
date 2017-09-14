@@ -14,8 +14,12 @@
     <h1>Today's Date is </h1>
     <script>
         var today = new Date();
-        //console.log(today);
-        document.write("<h2>"+today+"</h2>")
+        //console.log(today.getFullYear());
+        document.write("<h2>"+today.getDay()+"/"+today.getMonth()+"/"+today.getFullYear()+"</h2>")
+    </script>
+    <h1>The Time is </h1>
+     <script>
+        document.write("<h2>"+today.getHours()+":"+today.getMinutes()+"</h2>")
     </script>
 </body>
 </html>
