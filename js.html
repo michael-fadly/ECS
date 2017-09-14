@@ -20,12 +20,12 @@
     <script>
         var today = new Date();
         var month = today.getMonth() + 1 // it's from 0 - 11 by default
-        document.write("<h2>"+today.getDate()+"/"+month+"/"+today.getFullYear()+"</h2>")
+        h2(today.getDate()+"/"+month+"/"+today.getFullYear())
     </script>
     <h1>The Time is </h1>
      <script>
          var hour=today.getHours()
-         document.write("<h2>"+hour+":"+today.getMinutes()+"</h2>")
+         h2(+hour+":"+today.getMinutes())
          if (hour<12){
              h2("Good Morning")
          } else if (hour<18){
