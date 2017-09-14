@@ -14,3 +14,6 @@ p{
     color: coral;
     font-family: fantasy;
 }
+div.header{
+    background-color: red;
+}
