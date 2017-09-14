@@ -20,6 +20,7 @@ div.header{
 div.pupstuf{
     background-color: aqua;
     float: left;
+    //margin-left: 100px;
 }
 div.vidya{
     float: right;
