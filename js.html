@@ -11,28 +11,6 @@
     </style>
 </head>
 <body>
-    <script>
-        function h2(a){
-            document.write("<h2>"+a+"</h2>")
-        }
-    </script>
-    <h1>Today's Date is </h1>
-    <script>
-        var today = new Date();
-        var month = today.getMonth() + 1 // it's from 0 - 11 by default
-        h2(today.getDate()+"/"+month+"/"+today.getFullYear())
-    </script>
-    <h1>The Time is </h1>
-     <script>
-         var hour=today.getHours()
-         h2(+hour+":"+today.getMinutes())
-         if (hour<12){
-             h2("Good Morning")
-         } else if (hour<18){
-             h2("Good Afternoon")
-         } else {
-             h2("Good Night")
-         }
-    </script>
+    <script src="time.js"></script>
 </body>
 </html>
