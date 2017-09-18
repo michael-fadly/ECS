@@ -18,13 +18,26 @@ h1{
     height: 122px;
     margin:0 auto 0 auto;
     padding-top: 40px;
-    background: url(../02img/elderflower-logo.png) no-repeat bottom center;
+    background: url("../02img/elderflower-logo.png") no-repeat bottom center;
 }
 
-h2{}
+h2{
+    width: 286px;
+    height: 18px;
+    margin: 0 auto 20px auto;
+    background: url("../02img/custom-sign.png") no-repeat center center;  
+}
 
-h1,h2{}
+h1,h2{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
-#content{}
+#content{
+    background-color: #fff;
+    border: 3px double #31373f;
+    color: #31373f;
+}
 
 #cost{}
