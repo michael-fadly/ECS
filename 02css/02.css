@@ -38,6 +38,16 @@ h1,h2{
     background-color: #fff;
     border: 3px double #31373f;
     color: #31373f;
+    display: inline-block;
+    padding: 30px 50px;
+    margin: 20px auto 50px auto;
+    max-height: 580px;
+    min-height: 4em;
+    overflow: auto;
 }
 
-#cost{}
+#cost{
+    position: relative;
+    top: 1em;
+    right: 2em;
+}
