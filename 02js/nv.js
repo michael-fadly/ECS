@@ -5,3 +5,10 @@ t = p * q; //5*14=70
 
 var element = document.getElementById('cost');
 element.textContent = 'Cost: $' + t;
+
+function calc() {
+    q = document.getElementById('amount').value;
+    t = p * q;
+    var element = document.getElementById('cost');
+    element.textContent = 'Cost: $' + t;
+}
