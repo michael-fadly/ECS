@@ -32,9 +32,6 @@ function hello() {
     element.textContent = 'Hello ' + name;
 }
 
-//name = "bob"; //TODO not hardcode
-//var message = "<a href=\'sale.html'\>25% off~!</a>" //"wow"
-
 var offers = [10, 25, 50, 75, 100];
 var names = ["Jenny", "bob", "John", 'Max'];
 function offr() {
@@ -47,10 +44,18 @@ function offr() {
             var match = true
             var offrnm = Math.floor(Math.random()*offers.length);
             console.log(offrnm)
-            console.log(offers[offrnm]);
+            
         }
     }
     if (match != true) {
         console.log("new person");
     }
+    else {
+        var prcntoff=offers[offrnm];
+        console.log(prcntoff);
+        var message = "<a href=\'sale.html'\>"+prcntoff+" off~!</a>" //"wow"
+        var elnote = document.getElementById('note');
+        elnote.innerHTML=message;
+    }
+   
 }
