@@ -12,3 +12,8 @@ function calc() {
     var element = document.getElementById('cost');
     element.textContent = 'Cost: $' + t;
 }
+function hello() {
+    var name = document.getElementById('name').value;
+    var element = document.getElementById('nameplace');
+    element.textContent = 'Hello ' + name;
+}
