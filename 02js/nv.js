@@ -34,6 +34,10 @@ function hello() {
 
 var offers = [10, 25, 50, 75, 100];
 var names = ["Jenny", "bob", "John", 'Max'];
+
+names[0] = "me"
+console.log(names);
+
 function offr() {
     hello();
     var i, listed;
