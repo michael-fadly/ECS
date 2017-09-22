@@ -1,5 +1,7 @@
-console.log("Hello World!");
 /*
+
+console.log("Hello World!");
+
 function calcArea(width, height){ //this function can be used outside of this script
     var area = width*height
     return area;
@@ -17,7 +19,7 @@ var areaX = function(w,h){ //this function can not
 
 var size = areaX(3,5);
 console.log(size);
-*/
+
 //self invoke
 (function(){
     var w,h
@@ -26,3 +28,16 @@ console.log(size);
     console.log(w*h);
     return(w*h);
 }());
+
+*/
+
+//local and global varibles
+var a = 1;
+function one(){
+    var b = 1;
+    function two(){
+        console.log(a+b);
+    }
+    two()
+}
+one()
