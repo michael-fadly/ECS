@@ -7,8 +7,9 @@ function draw() { // run every frame
     if(mouseIsPressed){
         //fill(0);
         background(204);
-    }else{
-        fill(255);
-    }
+    }//else{
+        //fill(255);
+    //}
+    fill(mouseX,mouseY,255);
     ellipse(mouseX,mouseY,10,10);
 }
