@@ -29,8 +29,6 @@ console.log(size);
     return(w*h);
 }());
 
-*/
-
 //local and global varibles
 var a = 1;
 function one(){
@@ -41,3 +39,5 @@ function one(){
     two()
 }
 one()
+
+*/
