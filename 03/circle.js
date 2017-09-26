@@ -1,5 +1,6 @@
 function setup() { // start at the beginning
     createCanvas(500,500);
+    background(204);
 }
 
 function draw() { // run every frame
@@ -8,6 +9,5 @@ function draw() { // run every frame
     }else{
         fill(255);
     }
-    background(204);
     ellipse(mouseX,mouseY,80,80);
 }
