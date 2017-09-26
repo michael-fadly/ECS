@@ -1,0 +1,12 @@
+function setup() { // start at the beginning
+    createCanvas(500,500);
+    background(204);
+}
+
+function draw() { // run every frame
+    if(mouseIsPressed){
+        background(204);
+    }
+    fill(mouseX,mouseY,random(255));
+    triangle(mouseX, mouseY, 1/mouseX, 1/mouseY,random(500),random(500))
+}

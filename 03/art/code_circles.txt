@@ -1,12 +1,11 @@
 function setup() { // start at the beginning
     createCanvas(500,500);
-    background(0);
+    background(204);
 }
 
 function draw() { // run every frame
-    var r = random(500);
     if(mouseIsPressed){
-        fill(mouseX,mouseY,random(255));
-        rect(mouseX, mouseY,r,r);
+    fill(mouseX,mouseY,random(255));
+    ellipse(mouseX,mouseY,random(30),random(30));
     }
 }
