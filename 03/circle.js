@@ -5,9 +5,10 @@ function setup() { // start at the beginning
 
 function draw() { // run every frame
     if(mouseIsPressed){
-        fill(0);
+        //fill(0);
+        background(204);
     }else{
         fill(255);
     }
-    ellipse(mouseX,mouseY,80,80);
+    ellipse(mouseX,mouseY,10,10);
 }
