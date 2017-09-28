@@ -14,5 +14,5 @@ function draw() { // run every frame
     var center = 250;
     fill(255,0,0);
     line(center, center - 100, center, center + 100);
-    ellipse(center, center-100, 50, 50);/*
+    ellipse(center, center-100, 50, 50);
 }
