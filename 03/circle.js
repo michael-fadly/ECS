@@ -1,5 +1,5 @@
 function setup() { // start at the beginning
-    createCanvas(500,500);
+    createCanvas(500, 500);
     background(255);
 }
 
@@ -12,10 +12,7 @@ function draw() { // run every frame
     }
     */
     var center = 250;
-    fill(0);
-    ellipse(center,center,50,50);
-    fill(255);
-    ellipse(center+mouseX/25,center,25,25);
-    fill(0);
-    ellipse(center+mouseX/25,center,10,10);
+    fill(255,0,0);
+    line(center, center - 100, center, center + 100);
+    ellipse(center, center-100, 50, 50);/*
 }
