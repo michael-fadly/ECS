@@ -28,5 +28,17 @@ function textLimiter(){
     }else{
         //createP(textfield.value());
         newText();
+        wordSearch();
+    }
+}
+
+function wordSearch(){
+    var favword = "whomst" // whomst'd've
+    var text = textfield.value();
+    var index = text.indexOf(favword);
+    if (index > -1){
+       console.log("whomst'd've*");
+    }else{
+        console.log("you don't have my favorite word *cri*")
     }
 }
