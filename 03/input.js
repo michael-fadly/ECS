@@ -10,4 +10,5 @@ function setup() {
 
 function newText(){
     console.log('yams');
+    createP(textfield.value());
 }
