@@ -2,7 +2,12 @@ var textfield, output, submit;
 
 function setup() {
     textfield = select("#storyfield");
-    //var value = textfield.value();
+    submit = select("#submit");
+    submit.mousePressed(newText);
     console.log('test');
+    console.log(textfield.value());
+}
 
+function newText(){
+    console.log('yams');
 }
