@@ -3,7 +3,9 @@ var textfield, output, submit, txt;
 function setup() {
     textfield = select("#storyfield");
     submit = select("#submit");
-    submit.mousePressed(textLimiter);
+    //submit.mousePressed(textLimiter);
+    txt = textfield.value();
+    submit.mousePressed(piece);
     console.log('test');
     console.log(textfield.value());
     output = select('#output');
@@ -39,7 +41,7 @@ function wordSearch(){
     }else{
         console.log("you don't have my favorite word *cri*")
     }
-    piece();
+    //piece();
 }
 
 function piece(){
@@ -52,4 +54,8 @@ function piece(){
     for (var i = 0; i < words.length; i++) { 
         createP(words[i]);
     }
+    createP("alphabetically:")
+    words.sort();
+    txt = join (words, " ");
+    createP(txt);
 }
