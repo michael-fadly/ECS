@@ -39,4 +39,10 @@ function wordSearch(){
     }else{
         console.log("you don't have my favorite word *cri*")
     }
+    piece();
+}
+
+function piece(){
+    var np = txt.substring(0,txt.length/2);
+    createP(np);
 }
