@@ -43,6 +43,13 @@ function wordSearch(){
 }
 
 function piece(){
-    var np = txt.substring(0,txt.length/2);
-    createP(np);
+    //var np = txt.substring(txt.length/2,txt.length);
+    //createP(np);
+    var words = splitTokens(txt,' .;,');
+    console.log(words);
+    createP(words);
+    createP(words[0]);
+    for (i = 0; i < words.length; i++) { 
+        createP(words[i]);
+    }
 }
