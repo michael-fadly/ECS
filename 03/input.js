@@ -1,4 +1,4 @@
-var textfield, output, submit;
+var textfield, output, submit, txt;
 
 function setup() {
     textfield = select("#storyfield");
@@ -20,9 +20,9 @@ function newTyping(){
 }
 
 function textLimiter(){
-    var text = textfield.value();
-    console.log(text.length + ' chars');
-    if (text.length > 140){
+    txt = textfield.value();
+    console.log(txt.length + ' chars');
+    if (txt.length > 140){
         createP('over 140 chars')
     }else{
         newText();
@@ -32,8 +32,8 @@ function textLimiter(){
 
 function wordSearch(){
     var favword = "whomst"
-    var text = textfield.value();
-    var index = text.indexOf(favword);
+    txt = textfield.value();
+    var index = txt.indexOf(favword);
     if (index > -1){
        console.log("whomst'd've*");
     }else{
