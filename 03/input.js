@@ -49,7 +49,7 @@ function piece(){
     console.log(words);
     createP(words);
     createP(words[0]);
-    for (i = 0; i < words.length; i++) { 
+    for (var i = 0; i < words.length; i++) { 
         createP(words[i]);
     }
 }
