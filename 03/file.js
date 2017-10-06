@@ -21,6 +21,8 @@ function setup(){
 function fileSelected(file){
 	console.log(file);
 	createP(file.name);
+	createP(file.size);
+	createP(file.data);
 }
 
 function loadtxt(){
