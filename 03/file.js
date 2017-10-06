@@ -1,4 +1,4 @@
-var txt;
+var txt, button, dropzone;
 
 /*
 function preload(){ // setup will not run until preload is done
