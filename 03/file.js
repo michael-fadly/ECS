@@ -20,6 +20,7 @@ function setup(){
 
 function fileSelected(file){
 	console.log(file);
+	createP(file.name);
 }
 
 function loadtxt(){
