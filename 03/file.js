@@ -8,8 +8,8 @@ function preload(){ // setup will not run until preload is done
 
 function setup(){
     noCanvas(); //specify don't draw anything
-    createFileInput();
-    button = select('loadfile');
+    createFileInput(fileSelected);
+    button = select('#loadfile');
     button.mousePressed(loadtxt);
     /*
     console.log(txt);
@@ -18,7 +18,7 @@ function setup(){
     */
 }
 
-function fileSelected(){
+function fileSelected(file){
 	console.log(file);
 }
 
