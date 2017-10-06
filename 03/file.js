@@ -20,9 +20,12 @@ function setup(){
 
 function fileSelected(file){
 	console.log(file);
-	createP(file.name);
-	createP(file.size);
-	createP(file.data);
+	if (file.type == 'text'){
+		createP(file.name);
+		createP(file.data);
+	}else{
+		createP("only text files friend");
+	}
 }
 
 function loadtxt(){
