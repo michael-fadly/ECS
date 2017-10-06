@@ -8,16 +8,20 @@ function preload(){ // setup will not run until preload is done
 
 function setup(){
     noCanvas(); //specify don't draw anything
-    createFileInput();/*
+    createFileInput();
+    button = select('loadfile');
+    button.mousePressed(loadtxt);
+    /*
     console.log(txt);
     //createP(txt);
     createP(join(txt,'<br/>'));
     */
 }
 
-/*
-function loaded(){
-    console.log(txt);
+function fileSelected(){
+	console.log(file);
 }
-*/
 
+function loadtxt(){
+	
+}
