@@ -1,11 +1,9 @@
 var txt, button, dropzone;
-
 /*
 function preload(){ // setup will not run until preload is done
     txt = loadStrings('sample.txt');
 }
 */
-
 function setup(){
     noCanvas(); //specify don't draw anything
     createFileInput(fileSelected);
@@ -16,16 +14,26 @@ function setup(){
     //createP(txt);
     createP(join(txt,'<br/>'));
     */
-    
     dropzone = select('#dropzone');
     dropzone.dragOver(highlight);
-    dropzone.dragLeave(highlight);
+    dropzone.dragLeave(unhighlight);
+    dropzone.drop(gotFile,unhighlight);
+    
+    var canvas = createCanvas(200,200);
+    background(200);
+    canvas.dragOver(highlight);
 }
-
 function highlight(){
-    dropzone.style('background-color','#fff')
+    dropzone.style('background-color','#000000')
 }
-
+function unhighlight(){
+    dropzone.style('background-color','#ffffff')
+}
+function gotFile(file){
+    createP(file.name);
+    createP(file.type);
+    createP(file.size);
+}
 function fileSelected(file){
 	console.log(file);
 	if (file.type == 'text'){
@@ -35,7 +43,6 @@ function fileSelected(file){
 		createP("only text files friend");
 	}
 }
-
 function loadtxt(){
 	
 }
