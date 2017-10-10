@@ -1,6 +1,6 @@
-var srctxt, words;
+var srctxt, words, submit, seed;
 function preload(){
-    //srctext = loadStrings('sample.txt');
+    srctxt = loadStrings('sample.txt');
 }
 function setup(){
     noCanvas();
