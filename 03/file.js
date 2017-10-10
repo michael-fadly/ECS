@@ -16,6 +16,14 @@ function setup(){
     //createP(txt);
     createP(join(txt,'<br/>'));
     */
+    
+    dropzone = select('#dropzone');
+    dropzone.dragOver(highlight);
+    dropzone.dragLeave(highlight);
+}
+
+function highlight(){
+    dropzone.style('background-color','#fff')
 }
 
 function fileSelected(file){
