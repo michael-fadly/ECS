@@ -17,7 +17,7 @@ function setup(){
 function diastic(se,wo){
     var phrase = "";
     for (var i = 0; i < words.length; i++) {
-        if (words[i].charAt(0)=="e"){
+        if (words[i].charAt(0)==seed.value().charAt(0)){
             createP(words[i]);
         }
     }
