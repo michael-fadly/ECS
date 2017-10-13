@@ -16,15 +16,16 @@ function setup(){
 }
 function diastic(se,wo){
     var phrase = "";
+    
+    for (var j = 0; j < seed.value().length; j++) {
     for (var i = 0; i < words.length; i++) {
-        /* some thing cool
-        for (var q = 0; q < words[i].length; q++) {
-        
-        if (words[i].charAt(q)==seed.value().charAt(0)){
+        if (words[i].charAt(j)==seed.value().charAt(j)){
             createP(words[i]);
         }
-        
-        }
-        */
+        /* some thing cool
+        for (var q = 0; q < words[i].length; q++) {
+        if (words[i].charAt(q)==seed.value().charAt(0)){
+            createP(words[i]);}} */
+    }
     }
 }
