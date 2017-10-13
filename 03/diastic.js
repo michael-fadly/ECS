@@ -17,8 +17,14 @@ function setup(){
 function diastic(se,wo){
     var phrase = "";
     for (var i = 0; i < words.length; i++) {
-        if (words[i].charAt(0)==seed.value().charAt(0)){
+        /* some thing cool
+        for (var q = 0; q < words[i].length; q++) {
+        
+        if (words[i].charAt(q)==seed.value().charAt(0)){
             createP(words[i]);
         }
+        
+        }
+        */
     }
 }
