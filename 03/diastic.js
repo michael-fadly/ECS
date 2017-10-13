@@ -7,16 +7,18 @@ function setup(){
     srctxt = join(srctxt,' ');
     
     words = splitTokens(srctxt, ' .,!?')
-    console.log(words);
 
     seed = select("#seed");
     submit = select("#submit");
     submit.mousePressed(function(){
-        //createP(srctxt);
-        //createP(srctxt.length);
-        var poem = diastic();
+        var poem = diastic(seed.value(), words);
     });
 }
 function diastic(se,wo){
-    
+    var phrase = "";
+    for (var i = 0; i < words.length; i++) {
+        if (words[i].charAt(0)=="e"){
+            createP(words[i]);
+        }
+    }
 }
