@@ -4,14 +4,19 @@ function preload(){
 }
 function setup(){
     noCanvas();
+    srctxt = join(srctxt,' ');
     
-    //srctxt = join(srctxt,' ');
-    srctxt = join(srctxt,'<br/>');
-    
+    words = splitTokens(srctxt, ' .,!?')
+    console.log(words);
+
     seed = select("#seed");
     submit = select("#submit");
     submit.mousePressed(function(){
-        createP(srctxt);
-        createP(srctxt.length);
+        //createP(srctxt);
+        //createP(srctxt.length);
+        var poem = diastic();
     });
+}
+function diastic(se,wo){
+    
 }
