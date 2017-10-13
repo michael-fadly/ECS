@@ -1,6 +1,6 @@
 var srctxt, words, submit, seed;
 function preload(){
-    srctxt = loadStrings('sample.txt');
+    srctxt = loadStrings('sample.txt');//'https://u.teknik.io/dflXn.txt');
 }
 function setup(){
     noCanvas();
