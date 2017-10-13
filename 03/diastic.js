@@ -4,9 +4,14 @@ function preload(){
 }
 function setup(){
     noCanvas();
+    
+    //srctxt = join(srctxt,' ');
+    srctxt = join(srctxt,'<br/>');
+    
     seed = select("#seed");
     submit = select("#submit");
     submit.mousePressed(function(){
-        createP(seed.value());
+        createP(srctxt);
+        createP(srctxt.length);
     });
 }
