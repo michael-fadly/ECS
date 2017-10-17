@@ -1,15 +1,13 @@
-var srctxt, words, submit, seed;
+var srctxt, words, submit, seed; //INIT THE VARIABLES
 
-function preload() {
-    srctxt = loadStrings('sample.txt');
+function preload() { //THIS FUNCTION IS RUN FIRST
+    srctxt = loadStrings('sample.txt'); //LOAD THE TEXT FILE IN PRELOAD
 }
 
-function setup() {
-    noCanvas();
-    srctxt = join(srctxt, ' ');
-
-    words = splitTokens(srctxt, ' .,!?')
-
+function setup() { // this function is run next
+    noCanvas(); //don't draw stuff
+    srctxt = join(srctxt, ' '); //add spaces
+    words = splitTokens(srctxt, ' .,!?') //split
     seed = select("#seed");
     submit = select("#submit");
     submit.mousePressed(function () {
