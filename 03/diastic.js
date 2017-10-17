@@ -24,9 +24,11 @@ function diastic(se, wo) {
         var c = seed.value().charAt(j);
         for (var i = 0; i < words.length; i++) {
             if (words[i].charAt(j) == seed.value().charAt(j)) {
-                createP(words[i]);
+                phrase += words[i]; //TODO shoud not convert string to array
+                phrase += " ";
                 break;
             }
         }
     }
+    createP(phrase);
 }
