@@ -18,12 +18,13 @@ function diastic(se,wo){
     var phrase = "";
     
     for (var j = 0; j < seed.value().length; j++) {
+    var c = seed.value().charAt(j);
     for (var i = 0; i < words.length; i++) {
         if (words[i].charAt(j)==seed.value().charAt(j)){
             createP(words[i]);
+            break;
         }
-        /* some thing cool
-        for (var q = 0; q < words[i].length; q++) {
+    /*  for (var q = 0; q < words[i].length; q++) {
         if (words[i].charAt(q)==seed.value().charAt(0)){
             createP(words[i]);}} */
     }
