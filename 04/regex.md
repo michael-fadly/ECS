@@ -30,9 +30,13 @@
 
 * \$ *escape character* $
 
-* \+1\-\(\d\d\d\)\-\d\d\d\-\d\d\d\d phone number with this format +1-(000)-000-0000
+* \+1\-\(\d\d\d\)\-\d\d\d\-\d\d\d\d phone number with this format
 
-* \d\d\d[.-]?\d\d\d[.-]?\d\d\d\d phone numbers in this format 000-000-0000
+> +1-(000)-000-0000
+
+* \d\d\d[.-]?\d\d\d[.-]?\d\d\d\d phone numbers in this format
+
+>000-000-0000
 
 * \w+ words until space
 
