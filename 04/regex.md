@@ -38,6 +38,6 @@
 
 * * 0 or more
 
-+ more than 1
+* + more than 1
 
-? 0 or 1
+* ? 0 or 1
