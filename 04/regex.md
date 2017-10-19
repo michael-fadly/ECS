@@ -25,3 +25,7 @@
 * \b whitespace, punctucation, start,end of a string
 
 * \B not \b
+
+* \\ *escape character* \
+
+* \$ *escape character* $
