@@ -36,7 +36,7 @@
 
 * \d\d\d[.-]?\d\d\d[.-]?\d\d\d\d phone numbers in this format
 
->000-000-0000
+> 000-000-0000
 
 * \w+ words until space
 
