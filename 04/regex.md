@@ -33,3 +33,9 @@
 * \+1\-\(\d\d\d\)\-\d\d\d\-\d\d\d\d phone number with this format +1-(000)-000-0000
 
 * \w+ words until space
+
+* * 0 or more
+
++ more than 1
+
+? 0 or 1
