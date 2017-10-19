@@ -1,4 +1,4 @@
-﻿Sample text for testing:
+﻿Sample text for regex testing:
 
 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
@@ -10,3 +10,8 @@ foo@demo.net  bar.ba@test.co.uk
 www.demo.com             http://foo.co.uk/
 http://regexr.com/foo.html?q=bar
 https://mediatemple.net
+
+Example 1:
+10rats + .36Geese = 3.14cows
+Use:
+(\d*\.)?\d+
