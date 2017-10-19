@@ -15,3 +15,13 @@
 * [] all chars in a set
 
 * [\s\S] everything
+
+* [^aeiou] everything exept a, e, i, o, u
+
+* ^\w first alphanum char of each line
+
+* \w$ last alphanum char of each line
+
+* \b whitespace, punctucation, start,end of a string
+
+* \B not \b
