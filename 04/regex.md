@@ -39,4 +39,3 @@
 + more than 1
 
 ? 0 or 1
-
