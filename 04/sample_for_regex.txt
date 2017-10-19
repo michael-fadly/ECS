@@ -5,6 +5,7 @@ abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
 0123456789 _+-.,!@#$%^&*();\/|<>"'
 
 12345 -98.7 3.141 .6180 9,000 +42
+000-000-0000
 555.123.4567    +1-(800)-555-2468
 foo@demo.net  bar.ba@test.co.uk
 www.demo.com             http://foo.co.uk/
@@ -21,3 +22,6 @@ that tested test is testing the tester's tests
 Use:
 //test?\w?\w?\w
 \btest(ed|ing|er|s)?\b
+
+Example
+\d\d\d(.|-)\d\d\d(.|-)\d\d\d\d
