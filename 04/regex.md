@@ -29,3 +29,7 @@
 * \\ *escape character* \
 
 * \$ *escape character* $
+
+* \+1\-\(\d\d\d\)\-\d\d\d\-\d\d\d\d phone number with this format +1-(000)-000-0000
+
+* \w+ words until space
