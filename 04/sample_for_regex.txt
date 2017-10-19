@@ -24,4 +24,6 @@ Use:
 \btest(ed|ing|er|s)?\b
 
 Example
-\d\d\d(.|-)\d\d\d(.|-)\d\d\d\d
+\d\d\d(.|-)?\d\d\d(.|-)?\d\d\d\d
+or
+\d\d\d[.-]?\d\d\d[.-]?\d\d\d\d
