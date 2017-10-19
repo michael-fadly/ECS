@@ -19,4 +19,5 @@ Use:
 Example 2:
 that tested test is testing the tester's tests
 Use:
-test?\w?\w?\w
+//test?\w?\w?\w
+\btest(ed|ing|er|s)?\b
