@@ -28,7 +28,13 @@ Example 3:
 or
 \d\d\d[.-]?\d\d\d[.-]?\d\d\d\d
 
-Eample 4:
+Example 4:
 Highlight all 4 letter words (not alphanum)
 Use:
 \b[a-zA-Z]{4}\b
+
+Example 5:
+Highlight all palindromes
+My dad sees a kayak at noon
+Use:
+\b(\w)?(\w)(\w)?\2\1
