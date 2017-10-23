@@ -16,9 +16,14 @@ function setup(){
     seed = document.getElementById("seed");
     
     submit = document.getElementById("submit");
-    submit.mousePressed(test);
+    //submit.mousePressed(test);
 }
 
 function test(){
-    console.log("test");
+    //console.log("test");
+    var s = document.getElementById("seed").value;
+    var regex = /\d{3}[-.]\d{4}/
+    //document.write(regex.test(s));
+    document.getElementById("regtest").innerHTML=regex.test(s);
+    //document.getElementById("regtest").innerHTML=regex.match(s);
 }
