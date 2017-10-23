@@ -13,8 +13,12 @@ var txt, seed, submit;
 function setup(){
     noCanvas();
     
-    seed = select("#seed");
+    seed = document.getElementById("seed");
     
-    submit = select("#submit");
+    submit = document.getElementById("submit");
     submit.mousePressed(test);
+}
+
+function test(){
+    console.log("test");
 }
