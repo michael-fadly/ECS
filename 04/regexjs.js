@@ -24,6 +24,6 @@ function test(){
     var s = document.getElementById("seed").value;
     var regex = /\d{3}[-.]\d{4}/
     //document.write(regex.test(s));
-    document.getElementById("regtest").innerHTML=regex.test(s);
-    //document.getElementById("regtest").innerHTML=regex.match(s);
+    //document.getElementById("regtest").innerHTML=regex.test(s);
+    document.getElementById("regtest").innerHTML=s.match(regex);
 }
