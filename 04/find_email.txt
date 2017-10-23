@@ -1,0 +1,7 @@
+adlkfj35465436.543hlkjahfds@skjfhdsalkjfhkj.akjsdhgflkjdashflkj
+
+\w*@\w*.
+
+\w+@\w*.
+
+\w+@\w+.\w+
