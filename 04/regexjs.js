@@ -37,5 +37,12 @@ function splitting(){
     var s = document.getElementById("seed").value;
     var regex = /[,.!?\s]+/;
     var words = s.split(regex);
-    console.log(words);
+    //console.log(words);
+    
+    //createP
+    var para = document.createElement("p");
+    var node = document.createTextNode(words);
+    para.appendChild(node);
+    var element = document.getElementById("regtest");
+    element.appendChild(node);
 }
