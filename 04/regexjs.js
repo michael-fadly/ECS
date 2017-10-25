@@ -49,7 +49,9 @@ function splitting(){
 
 function replace(){
     var s = document.getElementById("seed").value;
-    var regex = /\d{3}[-.]\d{4}/g;
-    var newstring = s.replace(regex,"yeet");
+    //var regex = /\d{3}[-.]\d{4}/g;
+    var regex = document.getElementById("thing_to_replace").value;
+    var replace_this = document.getElementById("replace_this").value;
+    var newstring = s.replace(regex,replace_this);
     console.log(newstring);
 }
