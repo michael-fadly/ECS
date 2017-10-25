@@ -46,3 +46,10 @@ function splitting(){
     var element = document.getElementById("regtest");
     element.appendChild(node);
 }
+
+function replace(){
+    var s = document.getElementById("seed").value;
+    var regex = /\d{3}[-.]\d{4}/g;
+    var newstring = s.replace(regex,"yeet");
+    console.log(newstring);
+}
