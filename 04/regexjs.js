@@ -16,6 +16,8 @@ function test(){
 
 function TPE(){ // Test for the Presence of an Email address
     var s = document.getElementById("seed").value;
-    var regex = /\/w+@\w+.(net|com|org)/g;
+    //var regex = /\/w+@\w+.(net|com|org)/g;
+    var regex = /\w+[._]?\w+@\w+.(net|com|org)/g;
     document.getElementById("regtest").innerHTML=s.match(regex);
+    console.log("YEET");
 }
