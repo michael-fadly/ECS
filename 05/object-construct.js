@@ -23,8 +23,19 @@ function hotel_yeet(name, rooms, booked){
 
 var careHotel = new hotel_yeet("Care",60,13);
 
+//delete careHotel.pool;
+
+careHotel.gym=true;
+careHotel.pool=false;
+
 var elName = document.getElementById("hotelName");
 elName.textContent = careHotel.name;
 
 var elRoom = document.getElementById("rooms");
 elRoom.textContent = careHotel.checkAvail();
+
+var elPool = document.getElementById("pool");
+elPool.className = "Pool: "+careHotel.pool;
+
+var elGym = document.getElementById("gym");
+elGym.className= "Gym: "+careHotel.gym;
