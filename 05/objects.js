@@ -13,3 +13,8 @@ var hotel ={
 //access object
 console.log(hotel.name);
 console.log(hotel.checkAvail());
+
+var hotelName = hotel['name'];
+console.log(hotelName);
+
+var roomsFree = hotel.checkAvail();
