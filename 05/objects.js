@@ -20,6 +20,13 @@ console.log(hotelName);
 var roomsFree = hotel.checkAvail();
 
 //update html
+
+/*
 var elName = document.getElementById("hotelName");
 //elName.textContent = hotel.name;
-elName.innerHTML = hotel.name;
+//elName.innerHTML = hotel.name;
+//elName.textContent = hotel.checkAvail();
+*/
+
+var elRooms = document.getElementById("rooms");
+elRooms.textContent=roomsFree;
