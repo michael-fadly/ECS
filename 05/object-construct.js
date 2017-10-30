@@ -12,3 +12,7 @@ hotel.name = "Park";
 hotel.booked =30;
 
 var elName = document.getElementById("hotelName");
+elName.textContent = hotel.name;
+
+var elRoom = document.getElementById("rooms");
+elRoom.textContent = hotel.checkAvail();
