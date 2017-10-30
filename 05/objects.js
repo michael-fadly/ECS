@@ -21,4 +21,5 @@ var roomsFree = hotel.checkAvail();
 
 //update html
 var elName = document.getElementById("hotelName");
-elName.textContent = hotel.name;
+//elName.textContent = hotel.name;
+elName.innerHTML = hotel.name;
