@@ -1,4 +1,5 @@
 function press(){
 	var q = document.getElementById("q");
-	q.textContent="yeet"
+	var rnum=Math.floor(Math.random()*100)
+	q.textContent=rnum;
 }
