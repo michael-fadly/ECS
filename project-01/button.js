@@ -1,3 +1,4 @@
 function press(){
-	console.log("yeet");
+	var q = document.getElementById("q");
+	q.textContent="yeet"
 }
