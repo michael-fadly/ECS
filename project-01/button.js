@@ -47,4 +47,5 @@ function press_for_loop(){
 		scor.push("Round "+i+": "+msg[i]);
 	}
 	scores.textContent=scor;
+	msg = [];
 }
