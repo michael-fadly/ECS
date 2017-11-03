@@ -16,6 +16,8 @@ var number ={
 		number.value=rnum;
 		if (rnum > 49){
 			number.result = true;
+		}else{
+			number.result = false;
 		}
 	}
 };
