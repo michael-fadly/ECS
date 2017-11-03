@@ -38,7 +38,7 @@ function press(){
 function press_for_loop(){
 	var scores = document.getElementById("scores");
 	
-	for (var i = 0; i < 3; i++) {
+	for (var i = 0; i < 10; i++) {
 		press();
 	}
 	
