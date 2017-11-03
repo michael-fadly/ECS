@@ -21,4 +21,4 @@ between 1 and 100
 
 4. Put the message in an element
 
-5. add an image
+5. add an image - done
