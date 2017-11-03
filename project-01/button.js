@@ -14,7 +14,7 @@ var number ={
 		var rnum=Math.floor(Math.random()*100);
 		//q.textContent=rnum;
 		number.value=rnum;
-		if (rnum => 50){
+		if (rnum > 49){
 			number.result = true;
 		}
 	}
@@ -22,9 +22,12 @@ var number ={
 
 function press(){
 	var q = document.getElementById("q");
+	var result = document.getElementById("result");
 	var w = number.presss();
 	q.textContent=number.value;
 	if (number.result){
-		console.log("passed");
+		result.textContent="You have passed";
+	}else{
+		result.textContent="You have failed";
 	}
 }
