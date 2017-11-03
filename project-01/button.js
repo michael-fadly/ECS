@@ -42,10 +42,10 @@ function press_for_loop(){
 		press();
 	}
 	
-	var scor = [];
+	var scor = "";// = [];
 	for (var i = 0; i < msg.length; i++) {
-		scor.push("Round "+i+": "+msg[i]);
+		scor+=("Round "+i+": "+msg[i]+"<br/>");
 	}
-	scores.textContent=scor;
+	scores.innerHTML=scor;
 	msg = [];
 }

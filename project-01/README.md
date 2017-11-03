@@ -1,6 +1,6 @@
 # Project: Button
 
-## Part 1 - done
+## Part 1
 
 1. Create a webpage with a button that when clicked returns a random number
 between 1 and 100
@@ -13,12 +13,12 @@ between 1 and 100
 
 ## Part 2
 
-1. Create a message variable - done
+1. Create a message variable
 
-2. Create a for loop that chooses a random number - done
+2. Create a for loop that chooses a random number
 
-3. Put the number in the message - done
+3. Put the number in the message
 
-4. Put the message in an element - almost done
+4. Put the message in an element
 
-5. add an image - done
+5. Add an image
