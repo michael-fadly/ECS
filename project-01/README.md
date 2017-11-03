@@ -1,13 +1,24 @@
 # Project: Button
 
-## Objectives
+## Part 1 - done
 
-* Create a webpage with a button that when clicked returns a random number
-between 1 and 100 - done
+1. Create a webpage with a button that when clicked returns a random number
+between 1 and 100
 
-* Put that number in an object - done?
+2. Put that number in an object
 
-* Call on the object to check if it's less or greater than 50 you pass or fail
--done
+3. Call on the object to check if it's less or greater than 50 you pass or fail
 
-* HTML: Button, Background Color, Text Changes -done
+4. HTML: Button, Background Color, Text Changes
+
+## Part 2
+
+1. Create a message variable
+
+2. Create a for loop that chooses a random number
+
+3. Put the number in the message
+
+4. Put the message in an element
+
+5. add an image
