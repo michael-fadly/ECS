@@ -15,7 +15,7 @@ between 1 and 100
 
 1. Create a message variable - done
 
-2. Create a for loop that chooses a random number
+2. Create a for loop that chooses a random number - done
 
 3. Put the number in the message - done
 

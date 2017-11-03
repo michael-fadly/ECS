@@ -34,3 +34,9 @@ function press(){
 		result.textContent="You have failed";
 	}
 }
+
+function press_for_loop(){
+	for (var i = 0; i < 3; i++) {
+		press();
+	}
+}
