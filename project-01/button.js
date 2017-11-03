@@ -36,7 +36,15 @@ function press(){
 }
 
 function press_for_loop(){
+	var scores = document.getElementById("scores");
+	
 	for (var i = 0; i < 3; i++) {
 		press();
 	}
+	
+	var scor = [];
+	for (var i = 0; i < msg.length; i++) {
+		scor.push("Round "+i+": "+msg[i]);
+	}
+	scores.textContent=scor;
 }
