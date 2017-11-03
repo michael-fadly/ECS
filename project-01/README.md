@@ -13,11 +13,11 @@ between 1 and 100
 
 ## Part 2
 
-1. Create a message variable
+1. Create a message variable - done
 
 2. Create a for loop that chooses a random number
 
-3. Put the number in the message
+3. Put the number in the message - done
 
 4. Put the message in an element
 

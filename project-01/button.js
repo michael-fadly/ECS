@@ -6,14 +6,15 @@ function press(){
 }
 */
 
+var msg = [];
+
 var number ={
 	value: 0,
 	result: false,
 	presss: function(){
-		//var q = document.getElementById("q");
 		var rnum=Math.floor(Math.random()*100);
-		//q.textContent=rnum;
 		number.value=rnum;
+		msg.push(rnum);
 		if (rnum > 49){
 			number.result = true;
 		}else{
