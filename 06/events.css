@@ -46,7 +46,7 @@ label {
 	font-size: 24px;
 }
 
-input[type='text'],input[text='password'], textarea {
+input[type='text'],input[type='password'], textarea {
 	background-color: #999;
 	color: #666;
 	font-family: 'Oswald', 'Futura', san-serif;
@@ -54,4 +54,26 @@ input[type='text'],input[text='password'], textarea {
 	padding: 4px 6px;
 	border: 1px solid #99;
 	border-radius: 8px;
+}
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus{
+	border: 1px solid #fff;
+	backgound-color: #fff;
+	outline: none;
+}
+
+input[type='submit'] {
+	background-color: #cb6868;
+	color: #f3dad1;
+	border: none;
+	border-radius: 5px;
+	padding: 8x 10px;
+	margin-top: 10px;
+	float: right;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+input[type='submit']:hover{
 }
