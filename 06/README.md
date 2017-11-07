@@ -1,1 +1,1 @@
-# Chapter 6 - Event Handlers
+# Chapter 6 - JavaScript Events
