@@ -45,3 +45,13 @@ label {
 	margin: 10px 0 10px 0;
 	font-size: 24px;
 }
+
+input[type='text'],input[text='password'], textarea {
+	background-color: #999;
+	color: #666;
+	font-family: 'Oswald', 'Futura', san-serif;
+	width: 96%;
+	padding: 4px 6px;
+	border: 1px solid #99;
+	border-radius: 8px;
+}
