@@ -6,9 +6,13 @@
  * )
 */
 
+//get username from input
+var lusr = document.getElementById("username");
+//call function if it blurs
+lusr.addEventListener('blur',chkusr, false);
+
 function chkusr(){
 	var lmsg = document.getElementById("feedback");
-	var lusr = document.getElementById("username");
 	if (lusr.value.length < 5){
 		lmsg.textContent = "Username must be at least 5 characters";
 	}else{
