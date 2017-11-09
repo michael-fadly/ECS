@@ -125,3 +125,7 @@ input[type='submit']:hover{
     border: none;
     padding: 0 0 0 10px;
 }
+
+#close{
+    background-color: lightblue;
+}
