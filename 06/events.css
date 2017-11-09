@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?font-Oswald)
+@import url(https://fonts.googleapis.com/css?font-Oswald);
 
 body {
 	background-color: #000;
@@ -82,4 +82,17 @@ input[type='submit']:hover{
     box-shadow: none;
     position: relative;
     top: 1px;
+}
+
+#note {
+    color: #fff;
+    background-color: #000;
+    opacity: 0.9;
+    box-shadow: -3px 3px 6px #000;
+    padding: 1em 1em 2em 1em;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    top: 1em;
+    left: 0;
 }
