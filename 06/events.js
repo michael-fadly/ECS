@@ -36,3 +36,10 @@ elClose.addEventListener('click', dismissNote, false);
 function dismissNote(){
     document.body.removeChild(elNote);
 }
+
+var q = document.getElementById("button");
+q.addEventListener('click', yeet, false);
+
+function yeet(){
+    console.log("yeet");
+}
