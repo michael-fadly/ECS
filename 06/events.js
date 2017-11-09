@@ -34,5 +34,5 @@ document.body.appendChild(elNote); //add it to the page through the body
 var elClose = document.getElementById('close'); //close
 elClose.addEventListener('click', dismissNote, false);
 function dismissNote(){
-    document.body.removeChild
+    document.body.removeChild(elNote);
 }
