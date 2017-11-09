@@ -21,7 +21,7 @@ function chkusr(minln){
 	}
 }
 
-var msg = '<div class=\"header\"><a id=\"close"\ X<\a></div>';
+var msg = '<div class=\"header\"><a id=\"close"\ href="#"><\a>Close X</div>';
 msg += '<div><h2>System Maintenance</h2>';
 msg += 'Our servers are being updated between 2 and 4am ';
 msg += 'During this time there may be many disruptions to service.</div>';
