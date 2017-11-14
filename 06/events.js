@@ -62,3 +62,12 @@ function showPosition(event){
 
 var elStats = document.getElementById('body');
 elStats.addEventListener('mousemove',showPosition,false);
+
+var elMess = document.getElementById("message");
+elMess.addEventListener("keyup",charleft,false);
+function charLeft(e){
+    var textEntered, charDisplay, counter, lastkey;
+    textEntered = document.getElementById("message");
+    charDisplay = document.getElementById("charactersLeft");
+    counter = 280 - textEntered.length;
+}
