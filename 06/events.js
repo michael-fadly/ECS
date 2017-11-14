@@ -43,3 +43,18 @@ q.addEventListener('click', yeet, false);
 function yeet(){
     console.log("yeet");
 }
+
+var sx = document.getElementById("sx");
+var sy = document.getElementById("sy");
+var px = document.getElementById("px");
+var py = document.getElementById("py");
+var cx = document.getElementById("cx");
+var cy = document.getElementById("py");
+
+function showPosition(event){
+    sx.value = event.screenX;
+    sy.value = event.screenY;
+}
+
+var elStats = document.getElementById('body');
+elStats.addEventListener('mousemove',showPosition,false);
