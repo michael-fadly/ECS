@@ -129,3 +129,20 @@ input[type='submit']:hover{
 #close{
     background-color: lightblue;
 }
+
+#stats{
+    background-color: #6cc0ac;
+    color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+#stats input[type="text"]{
+    width: 80px;
+    margin: 0 10px 0 10px;
+    background-color: #fff;
+    border-color: #fff;
+}
