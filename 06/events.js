@@ -64,10 +64,13 @@ var elStats = document.getElementById('body');
 elStats.addEventListener('mousemove',showPosition,false);
 
 var elMess = document.getElementById("message");
-elMess.addEventListener("keyup",charleft,false);
+elMess.addEventListener("keyup",charLeft,false);
 function charLeft(e){
     var textEntered, charDisplay, counter, lastkey;
-    textEntered = document.getElementById("message");
+    textEntered = document.getElementById("message").value;
     charDisplay = document.getElementById("charactersLeft");
     counter = 280 - textEntered.length;
+    charDisplay.textContent=counter;
+    lastkey = document.getElementById("lastKey");
+    lastkey.textContent = "Last key in ACII code: " + e.keyCode;
 }
