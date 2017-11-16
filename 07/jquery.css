@@ -224,3 +224,21 @@ li 1{
     border-bottom: 1px solid #914141;
     
 }
+
+/*
+up to this point is in here
+https://pastebin.com/raw/WCaCavRf
+*/
+
+em.seasonal{
+    background-image: url('img/icon-calendar.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.favorite{
+    background-image: url('img/icon-heart.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+}
