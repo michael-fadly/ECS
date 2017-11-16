@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?font-Oswald);
+
+body {
+	background-color: #000;
+	font-family: 'Oswald', 'Futura', sans-serif;
+	margin:0;
+	padding:0;
+}
+
+#page {
+	background-color: #403c3b;
+	margin:0 auto 0 auto;
+}
+
+h1 {
+	background-image:url(img/kinglogo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	text-indent: -1000%;
+	height: 75px;
+	line-height: 75px;
+	width: 117px;
+	margin: 0 auto 0 auto;
+	padding: 30px 10px 20px 10px;
+}
+
+h2 {
+	color: #fff;
+	font-size: 24px;
+	font-weight:normal;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:.3em;
+	margin: 0 0 23px 0;
+}
+
+form {
+	padding: 0 60px 65px 60px;
+}
+
+label {
+	color:#fff;
+	display: block;
+	margin: 10px 0 10px 0;
+	font-size: 24px;
+}
+
+input[type='text'],input[type='password'], textarea {
+	background-color: #999;
+	color: #666;
+	font-family: 'Oswald', 'Futura', san-serif;
+	width: 96%;
+	padding: 4px 6px;
+	border: 1px solid #99;
+	border-radius: 8px;
+}
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus{
+	border: 1px solid #fff;
+	backgound-color: #fff;
+	outline: none;
+}
+
+input[type='submit'] {
+	background-color: #cb6868;
+	color: #f3dad1;
+	border: none;
+	border-radius: 5px;
+	padding: 8x 10px;
+	margin-top: 10px;
+	float: right;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+input[type='submit']:hover{
+	background-color: #d75359;
+    color: #f3dad1;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+    top: 1px;
+}
+
+#note {
+    color: #fff;
+    background-color: #000;
+    opacity: 0.9;
+    box-shadow: -3px 3px 6px #000;
+    padding: 1em 1em 2em 1em;
+    height: 95%;
+    width: 95%;
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
+
+#note .header + div {
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    text-align: center;
+    top: 1px;
+    color: #d7666b;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid #d7666b;
+}
+
+#note h2 {
+    color: #d7666b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#note a {
+    text-decoration: none;
+}
+
+#note .header{
+    text-align: right;
+    background-color: #000;
+    border: none;
+    padding: 0 0 0 10px;
+}
+
+#close{
+    background-color: lightblue;
+}
+
+#stats{
+    background-color: #6cc0ac;
+    color: #ffffff;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+#stats input[type="text"]{
+    width: 80px;
+    margin: 0 10px 0 10px;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+#charactersLeft{
+    color: #fff;
+    font-size: 24px;
+}
+
+#charactersLeft{
+    color: #fff;
+    margin-top: 10px;
+}
