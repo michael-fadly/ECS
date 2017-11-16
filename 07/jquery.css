@@ -58,7 +58,7 @@ input[type='text'],input[type='password'], textarea {
 
 input[type='text']:focus, input[type='password']:focus, textarea:focus{
 	border: 1px solid #fff;
-	backgound-color: #fff;
+	background-color: #fff;
 	outline: none;
 }
 
@@ -155,4 +155,33 @@ input[type='submit']:hover{
 #charactersLeft{
     color: #fff;
     margin-top: 10px;
+}
+
+ul{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    background-color: #ec8b68;
+    color: #fff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: 0.5em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    text-align: left;
+    height: 50px;
+    padding-left: 1em;
+    padding-top 10px;
+}
+
+.hot{
+    background-color: #df666b;
+    color: #fff;
+    text-shadow: 2px 2px 1px #914141;
+    border-top: 1px solid #e99295;
+    border-bottom: 1px solid #914141;
 }
