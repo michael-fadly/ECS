@@ -2,8 +2,9 @@
 $(':header').addClass('headline');
 $('li:lt(4)').hide().fadeIn(1500);
 $('li').on('click',function(){
-    $(this).remove();
+    //$(this).remove();
+    $(this).addClass('favorite');
 });
 
 $('li em').addClass('seasonal');
-$('li.hot').addClass('favorite');
+//$('li.hot').addClass('favorite');
