@@ -8,3 +8,10 @@ $('li').on('click',function(){
 
 $('li em').addClass('seasonal');
 //$('li.hot').addClass('favorite');
+
+/*
+// chaining
+$('li[id!="one"]').hide().delay.(500).fadeIn(1000);
+$('li:first-child').addClass('next');
+$('li.priority').addClass('highlight');
+*/
