@@ -15,3 +15,9 @@ $('li[id!="one"]').hide().delay.(500).fadeIn(1000);
 $('li:first-child').addClass('next');
 $('li.priority').addClass('highlight');
 */
+
+//get html frag
+$(function () { // self calling function
+    var $listHTML = $('ul').html;
+    $('ul').append($listHTML);
+});
