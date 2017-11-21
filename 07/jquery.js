@@ -62,3 +62,7 @@ function e(){
 //button00.addEventListener('click', e, false);
 
 $('#button00').on('click',e);
+
+$('li').on('click',function(){
+    $(this).remove();
+});
