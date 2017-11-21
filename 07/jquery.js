@@ -52,8 +52,10 @@ $(function () {
 */
 
 function e(){
-    var $newListItem = $('<li><em>gluten-free</em> soy sause</li>')
-    $('li:last').after($newListItem);
+    //var $newListItem = $('<li><em>gluten-free</em> soy sause</li>')
+    //$('li:last').after($newListItem);
+    var input00 = $('#input00').val();
+    $('li:last').after('<li>'+input00+'</li>');
 }
 
 //var button00 = document.getElementById("button00");
