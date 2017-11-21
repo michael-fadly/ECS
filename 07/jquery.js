@@ -42,3 +42,7 @@ $(function (){
     });
     $('li#four').remove();
 });
+
+$(function () {
+    $('ul').before('<p class="notice">just updated</p>')
+});
