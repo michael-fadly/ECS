@@ -244,5 +244,6 @@ em.seasonal{
 }
 
 .notice{
-    /* noot noot */
+    background-color: white;
+    text-align: center;
 }
