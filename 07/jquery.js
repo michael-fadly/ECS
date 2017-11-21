@@ -34,7 +34,7 @@ $(function () { // self calling function
     var $listItemText = $('li').html();
     $('li').append('<i>'+$listItemText+'</i>');
 });
-*/
+
 $(function (){
     $('li:contains("pine")').text('almonds');
     $('li.hot').html(function(){
@@ -49,3 +49,14 @@ $(function () {
     var $newListItem = $('<li><em>gluten-free</em> soy sause</li>')
     $('li:last').after($newListItem);
 });
+*/
+
+function e(){
+    var $newListItem = $('<li><em>gluten-free</em> soy sause</li>')
+    $('li:last').after($newListItem);
+}
+
+//var button00 = document.getElementById("button00");
+//button00.addEventListener('click', e, false);
+
+$('#button00').on('click',e);
