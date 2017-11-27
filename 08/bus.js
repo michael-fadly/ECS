@@ -11,10 +11,14 @@ xhr.onload = function(){
         newContent += '<div class="events">';
         newContent += '<img src="'+responseObject.events[i].map+'"';
         newContent += '<alt="Map of '+responseObject.events[i].location+' ">'
+        newContent += '<p><b>'+responseObject.events[i].location+'</b><br/>';
+        newContent += responseObject.events[i].date+'</p>';
+        newContent += '</div>';
     }
     //if(true){ //not on a server so the other if doesn't make sense
       //  document.getElementById('content').innerHTML - xhr.responseText;
     //}
+    document.getElementById('content').innerHTML=newContent;
 }
 
 xhr.open('GET', 'data.json', true)
