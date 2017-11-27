@@ -1,1 +1,1 @@
-# Chapter 7 - jQuery and json
+# Chapter 7 - jQuery

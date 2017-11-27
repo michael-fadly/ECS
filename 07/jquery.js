@@ -66,3 +66,7 @@ $('#button00').on('click',e);
 $('li').on('click',function(){
     $(this).remove();
 });
+
+var xhr = new XMLHttpRequest();
+xhr.open('GET','list.json','true');
+xhr.send('search=sunflower');
