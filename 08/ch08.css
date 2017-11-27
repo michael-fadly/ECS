@@ -22,7 +22,7 @@ h1 {
   float: left;
   width: 225px;
   height: 90px;
-  background-image: url('../img/maker-logo.png');
+  background-image: url('img/maker-logo.png');
   background-repeat: no-repeat;
   text-indent: 100%;
   white-space: nowrap;
@@ -126,9 +126,9 @@ input[type=submit]:hover {
 #rates {padding: 50px 100px 50px 100px;}
 #reload {padding: 0 100px 0 100px;}
 #rates, #reload {text-align: left;}
-.AU {background-image: url('../img/au.png');}
-.UK {background-image: url('../img/gb.png');}
-.US {background-image: url('../img/us.png');}
+.AU {background-image: url('img/au.png');}
+.UK {background-image: url('img/gb.png');}
+.US {background-image: url('img/us.png');}
  
  
 /* Example */
