@@ -4,11 +4,11 @@ var xhr = new XMLHttpRequest();
 
 xhr.onload = function(){
     //if(xhr.status === 200){
-    responseObject - JSON.parse(xhr.responseText);
+    responseObject = JSON.parse(xhr.responseText);
     //build
     var newContent ='';
     for (var i = 0; i < responseObject.events.length; i++){
-        newContent += '<div class="events">';
+        newContent += '<div class="event">';
         newContent += '<img src="'+responseObject.events[i].map+'"';
         newContent += '<alt="Map of '+responseObject.events[i].location+' ">'
         newContent += '<p><b>'+responseObject.events[i].location+'</b><br/>';
