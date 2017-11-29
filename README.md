@@ -1,5 +1,3 @@
 # Exploring Computer Science
 
-Learning HTML, CSS, JS
-
-and having fun!
+## Learning HTML, CSS, JS
