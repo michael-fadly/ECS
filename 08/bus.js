@@ -1,5 +1,5 @@
 //update html
-
+/*
 var xhr = new XMLHttpRequest();
 
 xhr.onload = function(){
@@ -23,7 +23,7 @@ xhr.onload = function(){
 
 xhr.open('GET', 'data.json', true)
 xhr.send(null);
-
+*/1
 //nav
 $('nav a').on('click', function(e){
     e.preventDefault();
