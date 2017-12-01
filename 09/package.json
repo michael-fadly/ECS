@@ -1,0 +1,24 @@
+{
+    "name":"twitter_bot_2017",
+    "version":"1.0.0",
+    "description":"I am a bot",
+    "main":"twitter-bot.js",
+    "scripts":{
+        "test":"echo \"Error: no test specified\" && exit 1"
+    },
+    "keyboards":[
+        "twitter",
+        "bot",
+        "fun",
+        "application",
+        "providence"
+    ],
+    "author": "Anthony Fadly",
+    "license":"ISC",
+    "dependencies":{
+        "child_process":"^1.0.2",
+        "express": "^4.15.2",
+        "nodemon":"^1.11.0",
+        "twit": "^2.2.9"
+    }
+}
