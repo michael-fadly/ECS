@@ -1,11 +1,13 @@
 # Chapter 9 - Twitter Bot
 
-## Requires [Twit](https://github.com/ttezel/twit) and fs
+## Requires [Twit](https://github.com/ttezel/twit), fs, express
 
 ```
 npm install twit
 
 npm install fs
+
+npm install express
 ```
 
 ## Download
