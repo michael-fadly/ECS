@@ -1,6 +1,6 @@
 var Twit = require('twit');
 var fs = require('fs');
-var express = requires('express');
+var express = require('express');
 
 console.log('init');
 
@@ -20,7 +20,7 @@ function listening(){
 
 var server = app.listen(3000, listening);
 
-function sendPikachu(request,response{
+function sendPikachu(request,response){
   response.send("Pika");
 }
 
