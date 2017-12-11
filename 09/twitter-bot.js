@@ -68,3 +68,5 @@ function sendPokemon(request, response) {
 app.get('/search/pikachu/25', sendPokemon);
 */
 retweet();
+//setInterval(retweet, 3000000); //retweet every 50 minutes
+//retweet, post original, reply
