@@ -1,14 +1,32 @@
 var Twit = require('twit');
-var fs = require('fs');
+//var fs = require('fs');
 var express = require('express');
-
+var config = require("./config.js")
 console.log('init');
+var Twitter = new Twit(config);
+var retweet = function(){
+    var params = {
+        q: "#nodejs, #Nodejs",
+        result_type: "recent",
+        lang: "en"
+    }
+}
 
-var contents = fs.readFileSync("config.json");
+Twitter.get('search/tweets',params,function(err,data){
+   if(!err){
+       
+   } 
+});
 
-var jsonContent = JSON.parse(contents);
+//Twitter.post('statuses/update',{status: 'beep boop'}, function(err, data, response){
+//    console.log(data)
+//})
 
-console.log(jsonContent.consumer_key);
+//var contents = fs.readFileSync("config.json");
+
+//var jsonContent = JSON.parse(contents);
+
+//console.log(jsonContent.consumer_key);
 
 //var T = new Twit();
 
