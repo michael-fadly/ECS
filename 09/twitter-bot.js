@@ -25,3 +25,12 @@ function sendPikachu(request,response){
 }
 
 app.get('/pikachu', sendPikachu);
+
+function sendPokemon(request,response){
+  var data = request.params;
+  var reply = "pikachu is the best";
+  console.log(data);
+  response.send(reply);
+}
+
+app.get('/search/pikachu/25',sendPokemon);
