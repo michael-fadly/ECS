@@ -47,6 +47,18 @@ Twitter.post('statuses/update', {
     console.log("tweeted")
 });
 
+//retweet from LeonMuss4Earth
+Twitter.post('statuses/retweet/:screen_name', {
+               screen_name: 'LeonMuss4Earth'
+            }, function (err, response) {
+                if (response) {
+                    console.log("retweeted from leon");
+                }
+                if (err) {
+                    console.log('error while retweeting from leon');
+                }
+            });
+
 //var contents = fs.readFileSync("config.json");
 
 //var jsonContent = JSON.parse(contents);
