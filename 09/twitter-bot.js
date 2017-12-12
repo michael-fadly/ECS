@@ -15,34 +15,37 @@ console.log('init');
 var Twitter = new Twit(config);
 var retweet = function () {
     var params = {
-        q: "#nodejs, #Nodejs",
+        q: "artificalintelligence", //"#nodejs, #Nodejs",
         result_type: "recent",
         lang: "en"
     }
 
 
-Twitter.get('search/tweets', params, function (err, data) {
-    if (!err) {
-        var retweetID = data.statuses[0].id_str;
-        Twitter.post('statuses/retweet/:id', {
-            id: retweetID
-        }, function (err, response) {
-            if (response) {
-                console.log("retweeted");
-            }
-            if (err) {
-                console.log('error while retweeting');
-            }
-        });
-        
-    }else{
-         console.log('error while searching');
+    Twitter.get('search/tweets', params, function (err, data) {
+        if (!err) {
+            var retweetID = data.statuses[0].id_str;
+            Twitter.post('statuses/retweet/:id', {
+                id: retweetID
+            }, function (err, response) {
+                if (response) {
+                    console.log("retweeted");
+                }
+                if (err) {
+                    console.log('error while retweeting');
+                }
+            });
+
+        } else {
+            console.log('error while searching');
         }
-});
+    });
 }
-//Twitter.post('statuses/update',{status: 'beep boop'}, function(err, data, response){
-//    console.log(data)
-//})
+var today = new Date();
+Twitter.post('statuses/update', {
+    status: 'AI is good '+today
+}, function (err, data, response) {
+    console.log("tweeted")
+});
 
 //var contents = fs.readFileSync("config.json");
 
