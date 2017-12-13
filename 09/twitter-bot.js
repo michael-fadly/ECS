@@ -74,6 +74,15 @@ Twitter.get('statuses/user_timeline', prml, function (err, data) {
             console.log('error while searching');
         }
     });
+
+//reply to tweets
+var stream = Twitter.stream('statuses/sample');
+stream.on("tweet",function(err,data){
+	Twitter.post('statuses/update',{status:"lol"},console.log("lol"))
+});
+
+//------------------------------------------------------------------------------
+
     /*
 Twitter.post('statuses/retweet/:screen_name', {
                
