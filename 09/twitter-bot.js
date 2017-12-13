@@ -56,8 +56,7 @@ var prml = {
 		   }
 Twitter.get('statuses/user_timeline', prml, function (err, data) {
         if (!err) {
-			console.log(data);
-            var retweetID = data[0].id_str;/*
+            var retweetID = data[0].id_str;
             Twitter.post('statuses/retweet/:id', {
                 id: retweetID
             }, function (err, response) {
@@ -70,7 +69,7 @@ Twitter.get('statuses/user_timeline', prml, function (err, data) {
             });
 
         } else {
-            console.log('error while searching');*/
+            console.log('error while searching');
         }
     });
     /*
@@ -108,6 +107,6 @@ function sendPokemon(request, response) {
 
 app.get('/search/pikachu/25', sendPokemon);
 */
-retweet();
+//retweet();
 //setInterval(retweet, 3000000); //retweet every 50 minutes
 //retweet, post original, reply
