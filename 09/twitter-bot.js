@@ -42,7 +42,7 @@ var retweet = function () {
 }
 var today = new Date();
 Twitter.post('statuses/update', {
-    status: 'AI is good '+today
+    status: "It's "+today+" and AI hasn't turned evil yet!!!"
 }, function (err, data, response) {
     console.log("tweeted")
 });
