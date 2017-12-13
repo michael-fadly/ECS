@@ -13,7 +13,7 @@ var server = app.listen(3000, listening);
 var config = require("./config.js");
 console.log('init');
 var Twitter = new Twit(config);
-/* // uncomment when ready to retweet hashtags
+// uncomment when ready to retweet hashtags
 var retweet = function () {
     var params = {
         q: "artificalintelligence", //"#nodejs, #Nodejs",
@@ -40,14 +40,16 @@ var retweet = function () {
             console.log('error while searching');
         }
     });
-}*/
-/* //uncomment when ready to tweet
+}
+retweet();
+
+ //uncomment when ready to tweet
 Twitter.post('statuses/update', {
     status: "It's "+today+" and AI hasn't turned evil yet!!!"
 }, function (err, data, response) {
     console.log("tweeted")
 });
-*/
+
 
 //retweet from LeonMuss4Earth
 var prml = {
@@ -107,6 +109,6 @@ function sendPokemon(request, response) {
 
 app.get('/search/pikachu/25', sendPokemon);
 */
-//retweet();
+//
 //setInterval(retweet, 3000000); //retweet every 50 minutes
 //retweet, post original, reply
